@@ -10,13 +10,15 @@ module.exports = {
   devServer: {
     contentBase: './dist',
   },
-  mode: 'production',
+  mode: 'development',
   module: {
     rules: [
+      ...base.module.rules,
       {
         test: /\.css$/i,
-        use: ["style-loader", 'css-loader'],
+        use: [ "style-loader", "css-loader",],
       },
+    
     ],
   },
 };
