@@ -2,10 +2,10 @@ import x from './x';
 import img from "./1.png"
 const div = document.getElementById("app")
 
-const str = `
-  <img src="${img}">
-`
-div.innerHTML = str
+// const str = `
+//   <img src="${img}">
+// `
+// div.innerHTML = str
 
 
 const button = document.createElement("button")
