@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + "." + {"0":"3f24787f749c9a9dca22"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + "." + {"0":"9365b4fc321c050732d6"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -257,7 +257,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x */ \"./src/x.js\");\n/* harmony import */ var _1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./1.png */ \"./src/1.png\");\n\r\n\r\nconst div = document.getElementById(\"app\")\r\n\r\nconst str = `\r\n  <img src=\"${_1_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]}\">\r\n`\r\ndiv.innerHTML = str\r\n\r\n\r\nconst button = document.createElement(\"button\")\r\nbutton.innerHTML = \"懒加载\"\r\nbutton.onclick = () => {\r\n  const p = __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lazy */ \"./src/lazy.js\"))\r\n  p.then((module) => {\r\n    const fn = module.default\r\n    fn()\r\n\r\n  })\r\n}\r\ndocument.body.appendChild(button)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x */ \"./src/x.js\");\n/* harmony import */ var _1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./1.png */ \"./src/1.png\");\n\n\nconst div = document.getElementById(\"app\")\n\nconst str = `\n  <img src=\"${_1_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]}\">\n`\ndiv.innerHTML = str\n\n\nconst button = document.createElement(\"button\")\nbutton.innerHTML = \"懒加载\"\nbutton.onclick = () => {\n  const p = __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lazy */ \"./src/lazy.js\"))\n  p.then((module) => {\n    const fn = module.default\n    fn()\n\n  })\n}\ndocument.body.appendChild(button)\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -281,7 +281,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.css */ \"./src/x.css\");\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./y.less */ \"./src/y.less\");\n\r\n\r\n// import  \"./z.styl\"\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"xxx\");\r\n\n\n//# sourceURL=webpack:///./src/x.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.css */ \"./src/x.css\");\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./y.less */ \"./src/y.less\");\n\n\n// import  \"./z.styl\"\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"xxx\");\n\n\n//# sourceURL=webpack:///./src/x.js?");
 
 /***/ }),
 
